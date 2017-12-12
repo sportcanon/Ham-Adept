@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Bundle Name="HamAdept.Bootstrapper" Version="0.1.0.0" Manufacturer="Sportcanon" UpgradeCode="7ec3395b-e9b6-4ca3-a67c-1d5131361b05">
+		<BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+		<Chain>
+			<MsiPackage SourceFile="..\HamAdept.Setup\bin\Debug\HamAdept.Setup.msi" />
+		</Chain>
+	</Bundle>
+</Wix>

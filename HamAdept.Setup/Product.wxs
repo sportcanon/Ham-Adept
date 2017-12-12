@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="HamAdept.Setup" Language="1033" Version="0.1.0.0" Manufacturer="Sportcanon" UpgradeCode="b300c6f9-70f0-427b-8004-7fddabe2b22a">
+		<Package Compressed="yes" InstallScope="perUser" />
+
+    <PropertyRef Id="NETFRAMEWORK45" />
+    <Condition Message='This product requires the .NET Framework 4.5 or higher full version version installed.'>
+      <![CDATA[NETFRAMEWORK45]]>
+    </Condition>
+    
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />
+    <UIRef Id="WixUI_Mondo" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+    <!--<Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />-->
+    <WixVariable Id="WixUILicenseRtf" Value="Resources\License.rtf" />
+    <WixVariable Id="WixUIBannerBmp" Value="Resources\WixUIBannerBmp.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources\WixUIDialogBmp.bmp" />
+    <WixVariable Id="WixUIExclamationIco" Value="Resources\WixUIExclamationIco.ico" />
+    <WixVariable Id="WixUIInfoIco" Value="Resources\WixUIInfoIco.ico" />
+    <WixVariable Id="WixUINewIco" Value="Resources\WixUINewIco.ico" />
+    <WixVariable Id="WixUIUpIco" Value="Resources\WixUIUpIco.ico" />
+
+    <!--<Media Id='1' Cabinet='HsbPackage.cab' EmbedCab='yes' DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="höltl's Hardware Service Bus Installation [1]" />-->
+    
+    <Feature Id="ProductFeature" Title="Ham Adept Beta" Level="1" Absent='disallow'>
+			<ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="DatabaseComponents" />
+    </Feature>
+
+    <Icon Id="HamAdeptIcon.ico" SourceFile="$(var.HamAdept.Program.ProjectDir)\HamAdept.ico" />
+    <Property Id="ARPPRODUCTICON" Value="HamAdeptIcon.ico" />
+
+  </Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="CommonAppDataFolder">
+        <Directory Id="INSTALLFOLDER" Name="HamAdept">
+          <Directory Id='ResourcesFolder' Name='Resources'/>
+          <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Guid="8a8019a4-4576-45a6-b972-e6f1b3adca39" Id="ProductComponent">
+        <File Id='HamAdeptExecutable' Name='$(var.HamAdept.Program.TargetFileName)'
+              DiskId='1' Source='$(var.HamAdept.Program.TargetPath)' KeyPath='yes'>
+          <Shortcut Id="DesktopShortcut" Name="Ham Adept" Description="Ham Adept - HAREC CZECH AMA TRAINER"
+                    Directory="DesktopFolder" Icon="HamAdeptIcon.ico"
+                    WorkingDirectory="INSTALLFOLDER" Advertise="yes" />
+        </File>
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="DatabaseComponents" Directory="ResourcesFolder">
+      <Component Guid="d32924c2-f926-4f81-89fe-421f7e08bb03" Id="Database">
+        <File Id='AllQuestions' Name='AllQuestions.xml' Source='$(var.HamAdept.Program.ProjectDir)\Resources\AllQuestions.xml' 
+              DiskId='1' Vital='yes' KeyPath='yes' />
+        <File Id='QuestionCategories' Name='QuestionCategories.xml' Source='$(var.HamAdept.Program.ProjectDir)\Resources\QuestionCategories.xml' 
+              DiskId='1' Vital='yes' />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

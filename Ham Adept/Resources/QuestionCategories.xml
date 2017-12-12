@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuestionCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<QuestionCategory>
+		<CategoryName>Předpisy Mezinárodní telekomunikační unie (ITU)</CategoryName>
+		<CategoryId>1</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>1</CategoryClassId>
+			<CategoryClassName>Radiokomunikační předpisy</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Elektrická, elektromagnetická a rádiová teorie</CategoryName>
+		<CategoryId>10</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>6</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>24</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Součástky</CategoryName>
+		<CategoryId>11</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>6</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>24</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Elektrické obvody</CategoryName>
+		<CategoryId>12</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>5</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>20</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Rádiové přijímače</CategoryName>
+		<CategoryId>13</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Rádiové vysílače</CategoryName>
+		<CategoryId>14</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Antény a napájecí vedení</CategoryName>
+		<CategoryId>15</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Šíření rádiových vln</CategoryName>
+		<CategoryId>16</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Měření elektrických veličin</CategoryName>
+		<CategoryId>17</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>2</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>8</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Rušení a odolnost proti rušení</CategoryName>
+		<CategoryId>18</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>2</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>8</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Bezpečnost elektrických zařízení</CategoryName>
+		<CategoryId>19</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>3</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>12</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>3</CategoryClassId>
+			<CategoryClassName>Elektrotechnika a radiotechnika</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Předpisy Evropské konference poštovních a telekomunikačních správ (CEPT)</CategoryName>
+		<CategoryId>2</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>4</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>16</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>1</CategoryClassId>
+			<CategoryClassName>Radiokomunikační předpisy</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Předpisy vycházející z legislativy České republiky</CategoryName>
+		<CategoryId>3</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>12</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>48</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>1</CategoryClassId>
+			<CategoryClassName>Radiokomunikační předpisy</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Rozvrh kmitočtů a druhů provozu v radioamatérských pásmech</CategoryName>
+		<CategoryId>4</CategoryId>
+		<CategoryQuestionValue>7</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>10</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>40</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Hláskovací abeceda (česká / mezinárodní)</CategoryName>
+		<CategoryId>5</CategoryId>
+		<CategoryQuestionValue>1</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>52</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>52</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Provozní dovednosti</CategoryName>
+		<CategoryId>6</CategoryId>
+		<CategoryQuestionValue>5</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>10</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>40</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Zkratky používané pro dotazy a sdělení (Q kódy)</CategoryName>
+		<CategoryId>7</CategoryId>
+		<CategoryQuestionValue>5</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>10</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>40</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Zkratky používané v radioamatérské komunikaci</CategoryName>
+		<CategoryId>8</CategoryId>
+		<CategoryQuestionValue>2</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>45</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>180</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+	<QuestionCategory>
+		<CategoryName>Používání prefixů ve volacích značkách</CategoryName>
+		<CategoryId>9</CategoryId>
+		<CategoryQuestionValue>2</CategoryQuestionValue>
+		<CategoryRequiredQuestionCount>30</CategoryRequiredQuestionCount>
+		<CategoryQuestionCount>120</CategoryQuestionCount>
+		<CategoryClass>
+			<CategoryClassId>2</CategoryClassId>
+			<CategoryClassName>Radiokomunikační provoz</CategoryClassName>
+		</CategoryClass>
+	</QuestionCategory>
+</ArrayOfQuestionCategory>
