@@ -34,6 +34,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\HamAdept.Setup.msi" />
+    <Content Include="bin\Debug\HamAdept.Setup.wixpdb" />
     <Content Include="Resources\License.rtf" />
     <Content Include="Resources\WixUIBannerBmp.bmp" />
     <Content Include="Resources\WixUIDialogBmp.bmp" />
@@ -60,6 +62,8 @@
     </WixExtension>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="bin\Debug\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
